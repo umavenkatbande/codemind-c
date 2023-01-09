@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
-{
+{ 
     int n,r,sum;
-    scanf("%d",&n);
+    scanf("%d",&n); 
     while(n>=10)
     {
         sum=0;
@@ -11,8 +11,9 @@ int main()
             r=n%10;
             sum=sum+r;
             n=n/10;
-        }
-        n=sum;
-    }
-    printf("%d",sum);
+            }
+            n=sum;
+            }
+            printf("%d",sum);
+    
 }
